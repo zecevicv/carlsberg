@@ -228,6 +228,7 @@ button {
 @media (max-width: 1023.98px) {
   .content {
     top: 19%;
+    left: 50%;
     width: 100%;
   }
 }
@@ -367,3 +368,51 @@ button {
     font-size: 6vw;
   }
 }
+
+/* #Page 4
+================================================== */
+
+/* #Page 5
+================================================== */
+.page-5 h1 {
+  font-size: 3vw;
+  margin-bottom: 1.5vw;
+}
+
+.page-5 img {
+  width: 45vw;
+}
+
+.page-5 h2 {
+  font-size: 2.4vw;
+  line-height: 1.2;
+  margin: 1.5vw 0;
+}
+
+.page-5 .btn {
+  width: 27.6vw;
+}
+
+@media (max-width: 1023.98px) {
+  .page-5 h1 {
+    font-size: 9vw;
+    margin-bottom: 15vw;
+  }
+
+  .page-5 img {
+    width: 88%;
+  }
+
+  .page-5 h2 {
+    font-size: 7vw;
+    line-height: 1.2;
+    margin: 15vw 0 25vw 0;
+  }
+
+  .page-5 .btn {
+    width: 95vw;
+  }
+}
+
+/* #Page 6
+================================================== */
