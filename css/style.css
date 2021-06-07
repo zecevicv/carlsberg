@@ -414,5 +414,46 @@ button {
   }
 }
 
-/* #Page 6
+/* #Page 5
 ================================================== */
+.page-6 h1 {
+  font-size: 3vw;
+  margin-bottom: 1.5vw;
+}
+
+.page-6 img {
+  width: 45vw;
+}
+
+.page-6 h2 {
+  font-size: 2.4vw;
+  line-height: 1.2;
+  margin: 1.5vw 0;
+}
+
+.page-6 .btn {
+  width: 27.6vw;
+}
+
+@media (max-width: 1023.98px) {
+  .page-6 h1 {
+    font-size: 9vw;
+    margin-bottom: 15vw;
+    max-width: 65%;
+    line-height: 1.2;
+  }
+
+  .page-6 img {
+    width: 88%;
+  }
+
+  .page-6 h2 {
+    font-size: 7vw;
+    line-height: 1.2;
+    margin: 15vw 0 15vw 0;
+  }
+
+  .page-6 .btn {
+    width: 95vw;
+  }
+}
