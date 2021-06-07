@@ -1,0 +1,191 @@
+
+/* #Global
+================================================== */
+body {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  max-width: 100%;
+  color: white;
+  min-height: 100vh;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+video,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+/* #Utilities
+================================================== */
+.container {
+  margin: 0 auto;
+}
+
+.d-desktop {
+  display: block;
+}
+
+.d-mobile {
+  display: none;
+}
+
+.m-0 {
+  margin: 0!important;
+}
+
+.my-0 {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+}
+
+.mr-auto {
+  margin-right: auto!important;
+}
+
+.p-0 {
+  padding: 0!important;
+}
+
+.regular {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.text-shadow {
+  text-shadow: 2px 4px 12px rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 1023.98px) {
+  .d-desktop {
+    display: none;
+  }
+
+  .d-mobile {
+    display: block;
+  }
+
+  .d-none-mobile {
+    display: none !important;
+  }
+}
+
+/* #Bg Img
+================================================== */
+.bg-img,
+.bg-img img {
+  width: 100%;
+}
+
+/* #Content
+================================================== */
+.content {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 55%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1023.98px) {
+  .content {
+    top: 19%;
+    width: 100%;
+  }
+}
+
+/* #Page 1
+================================================== */
+.page-1 h1 {
+  font-size: 3vw;
+  margin-bottom: 2.5vw;
+}
+
+.page-1 h1 br {
+  display: none;
+}
+
+.page-1 picture,
+.page-1 img {
+  width: 52vw;
+}
+
+@media (max-width: 1023.98px) {
+  .page-1 h1 {
+    font-size: 9vw;
+    margin-bottom: 4vw;
+    line-height: 1.2;
+  }
+
+  .page-1 h1 br {
+    display: block;
+  }
+
+  .page-1 picture,
+  .page-1 img{
+    width: 100%;
+  }
+}
