@@ -332,7 +332,8 @@ button {
 /* #Page 2
 ================================================== */
 .page-2 {
-  top: 30%;
+  top: 26%;
+  overflow: hidden;
 }
 
 .page-2 h1 {
@@ -340,9 +341,65 @@ button {
   margin-bottom: .25vw;
 }
 
+.page-2 .wheel-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 3vw;
+  padding: 2vw 0;
+}
+
+.page-2 .wheel-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 19.3vw;
+}
+
+.page-2 .wheel svg {
+  display: none;
+}
+
+.page-2 .wheel .circle-menu__circle {
+  width: 13vw;
+  height: 13vw;
+}
+
+.page-2 .wheel .circle-menu__circle__item__inner {
+  width: 6.6vw;
+  height: 6.6vw;
+  background-color: #63bc46;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 1);
+  transition: width .3s ease, height .3s ease, padding .3s ease, margin .3s ease;
+
+  font-size: 1vw;
+}
+
+.page-2 .wheel .circle-menu__circle p {
+  max-width: 95%;
+  max-height: 95%;
+  line-height: 1.1;
+}
+
+.page-2 .wheel .circle-menu__circle span {
+  display: block;
+}
+
+.page-2 .wheel .position--top .circle-menu__circle__item__inner {
+  width: 8.3vw;
+  height: 8.3vw;
+  margin-bottom: 1vw;
+  padding: 0.85vw;
+}
+
 @media (max-width: 1023.98px) {
   .page-2 {
-    top: 19%;
+    top: 17%;
   }
 
   .page-2 h1 {
@@ -350,6 +407,33 @@ button {
     max-width: 65%;
     line-height: 1.2;
     margin-bottom: 3vw;
+  }
+
+  .page-2 .wheel-wrapper {
+    margin-top: 6vw;
+    padding: 2vw 0;
+  }
+  
+  .page-2 .wheel-center {
+    width: 55vw;
+  }
+  
+  .page-2 .wheel .circle-menu__circle {
+    width: 40vw;
+    height: 40vw;
+  }
+  
+  .page-2 .wheel .circle-menu__circle__item__inner {
+    width: 20vw;
+    height: 20vw;
+    font-size: 3vw;
+  }
+  
+  .page-2 .wheel .position--top .circle-menu__circle__item__inner {
+    width: 27vw;
+    height: 27vw;
+    margin-bottom: 4vw;
+    padding: 3.5vw;
   }
 }
 
