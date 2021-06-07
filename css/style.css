@@ -9,6 +9,7 @@ body {
   max-width: 100%;
   color: white;
   min-height: 100vh;
+  position: relative;
 }
 
 body.no-scroll {
@@ -127,6 +128,36 @@ button {
   }
 }
 
+/* #Btn
+================================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-image: url('../img/btn.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 4.16vw;
+  padding: 0 1vw;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+
+.btn.btn-lg {
+
+}
+
+@media (max-width: 1023.98px) {
+  .btn {
+    height: 16.6vw;
+    padding: 0 7vw;
+    font-size: 4.5vw;
+  }
+}
+
 /* #Bg Img
 ================================================== */
 .bg-img,
@@ -188,4 +219,29 @@ button {
   .page-1 img{
     width: 100%;
   }
+}
+
+/* #Page 2
+================================================== */
+.page-2 {
+  top: 30%;
+}
+
+.page-2 h1 {
+  font-size: 2.25vw;
+  margin-bottom: .25vw;
+}
+
+@media (max-width: 1023.98px) {
+  .page-2 {
+    top: 19%;
+  }
+
+  .page-2 h1 {
+    font-size: 7vw;
+    max-width: 65%;
+    line-height: 1.2;
+    margin-bottom: 3vw;
+  }
+  
 }
