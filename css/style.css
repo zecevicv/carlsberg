@@ -607,10 +607,6 @@ button {
   margin-bottom: 1.5vw;
 }
 
-.page-5 img {
-  width: 45vw;
-}
-
 .page-5 h2 {
   font-size: 2.4vw;
   line-height: 1.2;
@@ -621,14 +617,26 @@ button {
   width: 27.6vw;
 }
 
+.page-5 .circle-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-5 .circle-images li:not(:last-child) {
+  margin-left: 1.5vw;
+}
+
+.page-5 .circle-images img {
+  width: 10vw;
+  border-radius: 50%;
+  box-shadow: 2px 3px 11.31px 1.69px rgba(0, 0, 0, 0.75);
+}
+
 @media (max-width: 1023.98px) {
   .page-5 h1 {
     font-size: 9vw;
     margin-bottom: 15vw;
-  }
-
-  .page-5 img {
-    width: 88%;
   }
 
   .page-5 h2 {
@@ -639,6 +647,14 @@ button {
 
   .page-5 .btn {
     width: 95vw;
+  }
+
+  .page-5 .circle-images li:not(:last-child) {
+    margin-left: 2.8vw;
+  }
+  
+  .page-5 .circle-images img {
+    width: 19.7vw;
   }
 }
 
