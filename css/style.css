@@ -1,8 +1,39 @@
+/* #Fonts
+================================================== */
+@font-face {
+  font-family: "albatros";
+  font-weight: 400;
+  src: url("../font/albatrosregularwebfont.ttf");
+}
+
+@font-face {
+  font-family: "albatros";
+  font-weight: 700;
+  src: url("../font/albatrosboldwebfont.ttf");
+}
+
+@font-face {
+  font-family: "carlsberg";
+  font-weight: 200;
+  src: url("../font/NyCarlsbergDisplay-Light.woff2");
+}
+
+@font-face {
+  font-family: "carlsberg";
+  font-weight: 400;
+  src: url("../font/NyCarlsbergDisplay-Regular.woff2");
+}
+
+@font-face {
+  font-family: "carlsberg";
+  font-weight: 700;
+  src: url("../font/NyCarlsbergDisplay-Bold.woff2");
+}
 
 /* #Global
 ================================================== */
 body {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'albatros', sans-serif;
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0;
@@ -159,10 +190,6 @@ button {
   padding: 0 1vw;
   font-size: 1.5vw;
   font-weight: 700;
-}
-
-.btn.btn-lg {
-
 }
 
 @media (max-width: 1023.98px) {
@@ -344,6 +371,7 @@ button {
   width: 100%;
   margin-top: 3vw;
   padding: 2vw 0;
+  font-family: 'carlsberg', sans-serif;
 }
 
 .page-2 .wheel-center {
