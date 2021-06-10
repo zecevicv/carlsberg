@@ -250,9 +250,76 @@ button {
 
 /* #Bg Img
 ================================================== */
+.bg-img {
+  position: relative;
+}
+
 .bg-img,
-.bg-img img {
+.bg-img picture,
+.bg-img picture img {
   width: 100%;
+}
+
+.bg-img .logo {
+  width: 14.7vw;
+  position: absolute;
+  top: 3.75vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg-img .best-moments {
+  width: 26.4vw;
+  position: absolute;
+  top: 11vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bg-img .best-beer {
+  width: 37vw;
+  position: absolute;
+  bottom: .5vw;
+  left: 38.5%;
+  transform: translateX(-50%);
+}
+
+.bg-img .footer-text {
+  width: 20vw;
+  position: absolute;
+  bottom: 1.1vw;
+  left: 68%;
+  transform: translateX(-50%);
+}
+
+.bg-img .logo img,
+.bg-img .best-moments img,
+.bg-img .best-beer img,
+.bg-img .footer-text img {
+  width: 100%;
+}
+
+@media (max-width: 1023.98px) {
+  .bg-img .logo {
+    width: 29.7vw;
+    top: 10.75vw;
+  }
+  
+  .bg-img .best-moments {
+    width: 55.4vw;
+    top: 26vw;
+  }
+  
+  .bg-img .best-beer {
+    width: 90vw;
+    bottom: 3.5vw;
+    left: 46.5%;
+  }
+  
+  .bg-img .footer-text {
+    width: 39vw;
+    left: 31%;
+  }
 }
 
 /* #Header
