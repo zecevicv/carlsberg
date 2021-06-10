@@ -3,5 +3,4 @@ $('.wheel').circleMenu({
   dragTouch:true,
   dragDirection:'horizontal',
   lockDirection:true,
-
 });

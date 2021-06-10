@@ -378,6 +378,22 @@ button {
   font-size: 1vw;
 }
 
+.page-2 .wheel .circle-menu__circle__item__inner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url('../img/download-icon.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all .3s ease;
+}
+
 .page-2 .wheel .circle-menu__circle p {
   max-width: 95%;
   max-height: 95%;
@@ -393,6 +409,10 @@ button {
   height: 8.3vw;
   margin-bottom: 1vw;
   padding: 0.85vw;
+}
+
+.page-2 .wheel .position--top .circle-menu__circle__item__inner::after {
+  opacity: 1;
 }
 
 @media (max-width: 1023.98px) {
@@ -432,6 +452,12 @@ button {
     height: 27vw;
     margin-bottom: 4vw;
     padding: 3.5vw;
+  }
+
+  .page-2 .wheel .circle-menu__circle__item__inner::after {
+    bottom: 0;
+    width: 9vw;
+    height: 9vw;
   }
 }
 
