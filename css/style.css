@@ -629,6 +629,9 @@ button {
 
 .page-5 .circle-images img {
   width: 10vw;
+  height: 10vw;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   box-shadow: 2px 3px 11.31px 1.69px rgba(0, 0, 0, 0.75);
 }
@@ -655,6 +658,7 @@ button {
   
   .page-5 .circle-images img {
     width: 19.7vw;
+    height: 19.7vw;
   }
 }
 
@@ -687,6 +691,9 @@ button {
 
 .page-6 .circle-images img {
   width: 10vw;
+  height: 10vw;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   box-shadow: 2px 3px 11.31px 1.69px rgba(0, 0, 0, 0.75);
 }
@@ -715,5 +722,6 @@ button {
   
   .page-6 .circle-images img {
     width: 19.7vw;
+    height: 19.7vw;
   }
 }
